@@ -1,0 +1,60 @@
+.game {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+
+.scores {
+  padding: 20px;
+  margin: 20px;
+  width: 300px;
+  border: 1px solid #ccc;
+  background-color: rgb(222, 184, 135,0.9) ;
+  margin: 10px;
+  box-shadow: 0 2px 4px rgba(50, 0, 0, 0.5);
+}
+
+h1 {
+  text-align: center;
+  font-size: 80px;
+  font-weight: 700;
+  color: #fdfdfe;
+  text-shadow: 0px 0px 5px #FF832F, 0px 0px 10px #FF832F, 0px 0px 10px #FF832F,
+    0px 0px 20px #FF832F;
+
+}
+
+.winer button {
+ width: 200px;
+ height: 40px;
+  margin: 5px;
+  padding: 8px;
+  background-color: #FF832F;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  transition: background-color 0.2s ease;
+}
+
+h2 {
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0;
+}
+
+li {
+  margin: 5px 0;
+  font-size: 16px;
+}
+
+.close-icon{
+  font-size: 30px;
+  cursor: pointer;
+}
